@@ -1,7 +1,7 @@
 ![image](https://github.com/ramesh043/food-order-website/assets/84142679/84f586a7-d5a5-45ce-ba67-dd175159d0b8)
 # Food Order Website 
 ## You can see the entire Code 
-### Basic Tecchnologies We use Html and CSS
+### Basic Technologies We use Html and CSS
 
 ### [you can click on link to see live webiste in your browser] 👉 <a href="https://food-orders-demo.netlify.app/">Food Order Website</a>
 ## Starter Project
