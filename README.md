@@ -3,7 +3,7 @@
 ## You can see the entire Code 
 ### Basic Technologies We use Html and CSS
 
-### [you can click on link to see live webiste in your browser] 👉 <a href="https://food-orders-demo.netlify.app/">Food Order Website</a>
+### [you can click on link to see live webiste in your browser] 🌐 <a href="https://food-orders-demo.netlify.app/">Food Order Website</a>
 ## Starter Project
 - Create index.html
 - Css external file (.css)
