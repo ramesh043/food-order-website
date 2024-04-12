@@ -111,4 +111,191 @@
       </div>
     </footer>
 ```
+## CSS Styling Code Here You can check here 
+ - use Flexbox
+ - Use Universal Selector
+ - fonts
+ - Responsive Design
+ - Media Quries (tablet,mobile and laptop)
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/* To apply Header Style Here  */
+header {
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  background-color: #f97272;
+  width: 100%;
+}
+
+.nav-bar ul {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-bar ul li a {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.section {
+  background: linear-gradient(to right, rgba(255, 255, 97, 0.33) 5%, #bc7fcd);
+  /* padding: 5rem; */
+  height: 100vh;
+}
+.hero-section {
+  /* padding: 4rem; */
+
+  display: flex;
+}
+.hero-section-content {
+  padding: 15rem;
+}
+.hero-section-content h1 {
+  font-size: 3.6em;
+  padding-bottom: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.hero-section-content p {
+  padding-bottom: 3rem;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.btn {
+  background-color: #f97272;
+  padding: 0.7rem 3.5rem;
+  text-transform: capitalize;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.grid-container > div {
+  /* text-align: center; */
+  /* padding: 20px 0; */
+  font-size: 30px;
+}
+.item-1 {
+  grid-row: 2/ 4;
+}
+.item-2 {
+  grid-row: 1/4;
+}
+.item-4 {
+  grid-row: 1/4;
+}
+.gallery-content {
+  padding-left: 3rem;
+  padding: 1rem;
+
+  width: 500px;
+  background-color: #f97272;
+}
+.section-img-container {
+  padding: 10rem;
+  background: linear-gradient(to right, rgba(255, 255, 97, 0.33) 5%, #bc7fcd);
+  height: 100vh;
+}
+.gallery-content a {
+  text-transform: capitalize;
+  color: black;
+  text-align: start;
+
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.gallery-content img {
+  display: inline;
+}
+.gallery-content h1 {
+  font-size: 3.2rem;
+  padding-bottom: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  .hero-section {
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons img {
+  margin-left: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 70px;
+  justify-content: space-around;
+}
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: black;
+  text-transform: lowercase;
+  border: 1px solid #ddd;
+  padding: 0.6rem 1rem;
+  transition: all 0.7s ease-out;
+  border-radius: 4px;
+}
+.social-links a:hover {
+  transform: translateY(-10px);
+}
+.footer-content marquee {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+```
 
